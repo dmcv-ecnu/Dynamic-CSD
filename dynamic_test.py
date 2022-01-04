@@ -129,16 +129,3 @@ def GA_test():
 
 if __name__ == '__main__':
     GA_test()
-
-
-# evaluate
-# python evolution.py --scale 4 --n_feats 64 --reset --dir_data /home/ubuntu/hdd1/wyb --model_filename carn_x4_4student_proid3 --pre_train output/model/carn/ --model_stat --test_only --data_test Urban100
-# python evolution.py --scale 4 --reset --dir_data /home/ubuntu/hdd1/wyb --model_filename edsr_x4_4student_proid1 --pre_train output/model/edsr/ --model_stat --test_only --data_test Urban100
-
-
-
-# evolution
-# python evolution.py --scale 4 --n_feats 64 --reset --dir_data /home/ubuntu/data/hdd1/wyb_dataset --model_filename carn_x4_4student_proid3 --pre_train output/model/carn/ --model_stat --data_test Urban100
-# python evolution.py --scale 4 --n_feats 64 --reset --dir_data /data1/wyb/dataset --model_filename carn_x4_4student_proid3 --pre_train output/model/carn/ --model_stat --data_test DIV2K --data_range 1-800/801-810 --test_only
-
-# python evolution.py --scale 4 --n_resgroups 10 --n_resblocks 20 --n_feats 64 --reset --dir_data /home/wyb --model_filename rcan_x4_4student_proid2 --pre_train output/model/rcan/ --model_stat --data_test DIV2K --data_range 1-800/801-810 --test_only
